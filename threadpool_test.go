@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+// TestThreadpoolLifecyle tests creating, starting, running a function and stopping a threadpool
 func TestThreadpoolLifecycle(t *testing.T) {
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	tp, err := New(ctx, cancel, 2)

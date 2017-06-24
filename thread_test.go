@@ -7,6 +7,7 @@ import (
 	"time"
 )
 
+// TestThreadLifeCycle tests creating, starting, running a function and joining a thread
 func TestThreadLifeCycle(t *testing.T) {
 	var (
 		tasks         int64
