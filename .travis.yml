@@ -5,3 +5,5 @@ go:
   - 1.7
   - 1.8
   - master
+env:
+  - GOMAXPROCS=4
