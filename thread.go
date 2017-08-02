@@ -1,3 +1,4 @@
+// +build go 1.7
 package threadpool
 
 import (
